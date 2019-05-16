@@ -1,0 +1,24 @@
+version: '3.7'
+services: 
+  react:
+    build: 
+      context: ./front-end
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - ./front-end:/app
+      - /app/node_modules
+    depends_on: 
+      - node
+  node:
+    build: 
+      context: ./back-end
+    restart: always
+    ports: 
+      - 5000:5000
+    env_file: 
+     - back-end.env
+    volumes: 
+      - ./back-end:/app
+      - /app/node_modules
