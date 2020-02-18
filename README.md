@@ -69,10 +69,21 @@ $ sudo usermod -aG docker ${USER}
 
 - [Working with Containers](https://www.tutorialspoint.com/docker/docker_working_with_containers.htm)
 
+### Docker file
+
+```sh
+$ docker build 
+```
+
+- [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+
 ## documents
 
+- [Docker CLI cheatsheet](https://devhints.io/docker)
+- [Docker Cheat Sheet](./docker-cheat-sheet.pdf)
 - [docker from tutorialspoint.com](https://www.tutorialspoint.com/docker/index.htm)
-- [docker cheat sheet](https://github.com/wsargent/docker-cheat-sheet)
+- [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet)
 - [How To Install and Use Docker on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
+- [Docker là gì ? Kiến thức cơ bản về Docker](https://medium.com/@phamducquan/docker-l%C3%A0-g%C3%AC-ki%E1%BA%BFn-th%E1%BB%A9c-c%C6%A1-b%E1%BA%A3n-v%E1%BB%81-docker-13c6efc4aefe)
 
 😋 Awesome
