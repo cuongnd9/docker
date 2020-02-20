@@ -71,17 +71,22 @@ $ sudo usermod -aG docker ${USER}
 
 ### Docker file
 
-```sh
-$ docker build 
-```
+- RUN : Để thực thi một câu lệnh nào đó trong quá trình build images.
+- CMD : Để thực thi một câu lệnh trong quá trình bật container.
+Mỗi Dockerfile chỉ có một câu lệnh CMD, nếu như có nhiều hơn một câu lệnh CMD thì chỉ có câu lệnh CMD cuối cùng được sử dụng.
 
-- [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+Một câu hỏi đặt ra là nếu tôi muốn khởi động nhiều ứng dụng khi start container thì sao, lúc đó hay nghĩ tới ENTRYPOINT
+
+- ENTRYPOINT: Để thực thi một số câu lệnh trong quá trình start container, những câu lệnh này sẽ được viết trong file .sh.
+
 
 ## documents
 
+- [docker from tutorialspoint.com](https://www.tutorialspoint.com/docker/index.htm)
+- [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+- [Dockerfile Best Practices](http://crosbymichael.com/dockerfile-best-practices.html)
 - [Docker CLI cheatsheet](https://devhints.io/docker)
 - [Docker Cheat Sheet](./docker-cheat-sheet.pdf)
-- [docker from tutorialspoint.com](https://www.tutorialspoint.com/docker/index.htm)
 - [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet)
 - [How To Install and Use Docker on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 - [Docker là gì ? Kiến thức cơ bản về Docker](https://medium.com/@phamducquan/docker-l%C3%A0-g%C3%AC-ki%E1%BA%BFn-th%E1%BB%A9c-c%C6%A1-b%E1%BA%A3n-v%E1%BB%81-docker-13c6efc4aefe)
