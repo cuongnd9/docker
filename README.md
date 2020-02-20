@@ -90,5 +90,8 @@ Một câu hỏi đặt ra là nếu tôi muốn khởi động nhiều ứng d�
 - [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet)
 - [How To Install and Use Docker on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 - [Docker là gì ? Kiến thức cơ bản về Docker](https://medium.com/@phamducquan/docker-l%C3%A0-g%C3%AC-ki%E1%BA%BFn-th%E1%BB%A9c-c%C6%A1-b%E1%BA%A3n-v%E1%BB%81-docker-13c6efc4aefe)
+- [Docker compose là gì ? Kiến thức về Docker ( Phần 2)](https://medium.com/@phamducquan/docker-compose-l%C3%A0-g%C3%AC-ki%E1%BA%BFn-th%E1%BB%A9c-v%E1%BB%81-docker-ph%E1%BA%A7n-2-3eb546e6c846)
+- [Docker Networking — Kiến thức về Docker ( Phần 3)](https://medium.com/@phamducquan/docker-networking-ki%E1%BA%BFn-th%E1%BB%A9c-v%E1%BB%81-docker-ph%E1%BA%A7n-3-94dd36138fdb)
+- [Docker Swarm — Kiến thức về Docker (Phần 4)](https://medium.com/@phamducquan/docker-swarm-ki%E1%BA%BFn-th%E1%BB%A9c-v%E1%BB%81-docker-ph%E1%BA%A7n-4-e698e99b92f8)
 
 😋 Awesome
