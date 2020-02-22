@@ -65,6 +65,8 @@ $ sudo usermod -aG docker ${USER}
 # log out and log back in so that your group membership is re-evaluated
 ```
 
+**[install Docker Compose](https://docs.docker.com/compose/install/)**
+
 ### container
 
 - [Working with Containers](https://www.tutorialspoint.com/docker/docker_working_with_containers.htm)
