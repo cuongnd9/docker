@@ -17,6 +17,8 @@ services:
     restart: always
     ports: 
       - 5000:5000
+    env_file: 
+     - back-end.env
     volumes: 
       - ./back-end:/app
       - /app/node_modules
