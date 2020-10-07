@@ -1,0 +1,26 @@
+version: "3"
+
+networks:
+  dev_env_network:
+    driver: bridge
+
+volumes:
+  app_db:
+
+services:
+  app_db:
+    container_name: app_db
+    image: postgres:10.3
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_MULTIPLE_DATABASES=auth_service,story_service
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - app_db:/var/lib/postgresql/data
+      - $PWD/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      - $PWD/mocking:/mocking
+    networks:
+      - dev_env_network
